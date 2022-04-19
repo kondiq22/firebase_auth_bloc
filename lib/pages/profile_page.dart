@@ -1,10 +1,8 @@
 import 'package:firebase_auth_bloc/blocs/auth/auth_bloc.dart';
 import 'package:firebase_auth_bloc/blocs/profile/profile_cubit.dart';
-import 'package:firebase_auth_bloc/untils/error_dialog.dart';
+import 'package:firebase_auth_bloc/utils/error_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-
 
 class ProfilePage extends StatefulWidget {
   static const String routeName = '/profile';

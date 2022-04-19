@@ -4,7 +4,7 @@ import 'package:validators/validators.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../blocs/signin/signin_cubit.dart';
-import '../untils/error_dialog.dart';
+import '../utils/error_dialog.dart';
 
 class SigninPage extends StatefulWidget {
   static const String routeName = '/signin';

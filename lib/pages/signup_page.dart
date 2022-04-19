@@ -1,10 +1,9 @@
-import 'package:firebase_auth_bloc/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:validators/validators.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../blocs/signup/signup_cubit.dart';
-import '../untils/error_dialog.dart';
+import '../utils/error_dialog.dart';
 
 class SignupPage extends StatefulWidget {
   static const String routeName = '/signup';

@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:firebase_auth_bloc/pages/profile_page.dart';
 import 'package:flutter/material.dart';
@@ -53,7 +52,7 @@ class _HomePageState extends State<HomePage> {
               ),
               SizedBox(height: 20),
               Text(
-                'Bloc is an awersome!\nThe best state management\nfor flutter!!!',
+                'Bloc is an awesome!\nThe best state management\nfor flutter!!!',
                 style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
               )
             ],
